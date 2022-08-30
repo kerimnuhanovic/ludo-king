@@ -1,0 +1,166 @@
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*background-color: #191c4a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23141eb3' fill-opacity='0.4'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    */
+    /*background-color: #121324;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23f20a15' fill-opacity='0.4'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    */
+/*    background-image: url('../Images/backludo.jpg');
+
+*/
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+
+}
+.players-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 20px 20px;
+    width: 100px;
+
+}
+.okvir {
+    display: flex;
+
+    height: 100vh;
+}
+.okvir-slike {
+    width: 80%;
+    height: 100px;
+    background: linear-gradient(#d1cfd0, #faf7f8);
+}
+.okvir-slike img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.okvir-kocke {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient( #faf7f8, #d1cfd0);
+}
+.okv {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#c2dbf2, #97b3cc);
+    padding-top: 4px;
+    align-items: center;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.okv img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+
+}
+.crveni-okvir-profilna {
+    border-right: 3px solid red;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+}
+.crveni-okvir-kocka {
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plavi-okvir-profilna {
+    border-right: 3px solid #141eb3;
+    border-top: 3px solid #141eb3;
+    border-left: 3px solid #141eb3;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+}
+.plavi-okvir-kocka {
+    border-right: 3px solid #141eb3;
+    border-bottom: 3px solid #141eb3;
+    border-left: 3px solid #141eb3;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+
+.zeleni-okvir-profilna {
+    border-right: 3px solid #0af234;
+    border-top: 3px solid #0af234;
+    border-left: 3px solid #0af234;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+}
+.zeleni-okvir-kocka {
+    border-right: 3px solid #0af234;
+    border-bottom: 3px solid #0af234;
+    border-left: 3px solid #0af234;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.zuti-okvir-profilna {
+    border-right: 3px solid #eefa0a;
+    border-top: 3px solid #eefa0a;
+    border-left: 3px solid #eefa0a;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+}
+.zuti-okvir-kocka {
+    border-right: 3px solid #eefa0a;
+    border-bottom: 3px solid #eefa0a;
+    border-left: 3px solid #eefa0a;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.granica {
+    border: 1px solid red;
+}
+.loading-okvir {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/back2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wait-header {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 3vw;
+    font-weight: 400;
+}

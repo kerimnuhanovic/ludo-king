@@ -1,0 +1,79 @@
+
+.pozadina {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1124%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(13%2c 124%2c 170%2c 1)'%3e%3c/rect%3e%3cpath d='M1512 560L0 560 L0 313.26Q59.91 301.17%2c 72 361.09Q124.31 293.39%2c 192 345.7Q204.04 285.74%2c 264 297.77Q334.24 248%2c 384 318.24Q458.7 272.94%2c 504 347.64Q539.25 262.88%2c 624 298.13Q676.59 278.72%2c 696 331.3Q747.07 262.37%2c 816 313.44Q883.31 308.75%2c 888 376.05Q913.89 329.94%2c 960 355.83Q971.32 295.14%2c 1032 306.46Q1104.47 258.93%2c 1152 331.4Q1228.48 287.88%2c 1272 364.37Q1306.41 278.78%2c 1392 313.19Q1471.9 273.09%2c 1512 352.99z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 435.3Q56.32 371.63%2c 120 427.95Q165.34 353.29%2c 240 398.64Q262.43 349.06%2c 312 371.49Q367.64 355.13%2c 384 410.78Q437.81 392.58%2c 456 446.39Q461.87 380.25%2c 528 386.12Q557.31 343.44%2c 600 372.75Q677.47 330.22%2c 720 407.69Q769.83 337.52%2c 840 387.35Q894.92 322.27%2c 960 377.19Q1057.85 355.04%2c 1080 452.89Q1105.06 405.95%2c 1152 431.01Q1171.38 378.39%2c 1224 397.77Q1252.28 354.04%2c 1296 382.32Q1350.85 365.17%2c 1368 420.02Q1414.91 346.93%2c 1488 393.84z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 490.21Q29.36 447.57%2c 72 476.93Q146.16 431.09%2c 192 505.25Q220.5 413.75%2c 312 442.26Q382.55 392.81%2c 432 463.35Q510 421.35%2c 552 499.35Q578.13 453.49%2c 624 479.62Q636.16 419.78%2c 696 431.94Q770 385.94%2c 816 459.95Q876.97 448.92%2c 888 509.89Q933.4 435.29%2c 1008 480.7Q1049.78 450.48%2c 1080 492.26Q1087.36 427.62%2c 1152 434.97Q1215.08 426.05%2c 1224 489.12Q1299.55 444.67%2c 1344 520.21Q1383.2 439.42%2c 1464 478.62z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1536 560L0 560 L0 534.93Q75.43 490.36%2c 120 565.78Q149.07 522.85%2c 192 551.92Q242.95 530.87%2c 264 581.81Q296.47 494.27%2c 384 526.74Q404.87 475.61%2c 456 496.48Q498.82 467.31%2c 528 510.13Q595.49 457.62%2c 648 525.1Q690.66 495.76%2c 720 538.42Q736.38 482.8%2c 792 499.18Q841.44 476.62%2c 864 526.06Q928.72 518.78%2c 936 583.5Q953.66 529.16%2c 1008 546.83Q1034.5 501.33%2c 1080 527.83Q1135.97 511.8%2c 1152 567.77Q1173.92 517.69%2c 1224 539.62Q1239.37 482.99%2c 1296 498.35Q1365.75 448.1%2c 1416 517.85Q1500.41 482.26%2c 1536 566.68z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1124'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.play-button {
+    width: 300px;
+    height: 60px;
+    border-radius: 9px;
+    background-color: #97b3cc;
+    border: 2px solid #627aa1;
+    color: white;
+    font-size: 1.7vw;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.play-button:hover {
+    background-color: #5c98fa;
+    transform: scale(1.03);
+}
+.button-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.room-button {
+    width: 120px;
+    height: 35px;
+    border-radius: 9px;
+    background-color: #97b3cc;
+    border: 2px solid #627aa1;
+    color: white;
+    font-size: 1.3vw;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.room-button:hover {
+    background-color: #5c98fa;
+    transform: scale(1.03);
+}
+.margin-top-10 {
+    margin-top: 10px;
+}
+.margin-right-10 {
+    margin-right: 10px;
+}
+.margin-left-10 {
+    margin-left: 10px;
+}
+.header {
+    font-size: 3vw;
+    font-family: 'Rock Salt', cursive;
+    color: #153845;
+
+
+}
+.join-room-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.room-input {
+    width: 250px;
+    height: 30px;
+    border-radius: 9px;
+    border: 1px solid #97b3cc;
+    outline: #97b3cc;
+}
